@@ -1,66 +1,174 @@
 import React from 'react';
 import calendar from '../../resources/calendar.png';
 
-export default function Months() {
+export default function Months({weekend, handleWeekendChange}) {
+    handleWeekendChange = (event) => {
+        weekend += event.target.value;
+    }
     return (
         <div>
             <p>Months</p>
-            <div>
-                <img src={calendar} alt="June calendar" />
+            <form>
                 <div>
-                    <input type="radio" id="june17" />
-                    <label for="june17">June 17-19</label>
-                    <br/>
-                    <input type="radio" id="june24" />
-                    <label for="june24">June 24-26</label>
+                    <img src={calendar} alt="June calendar" />
+                    <div>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="june17"
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            June 17-19
+                        </label>
+                        <br/>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="june24" 
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            June 24-26
+                        </label>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img src={calendar} alt="August calendar" />
                 <div>
-                    <input type="radio" id="aug19" />
-                    <label for="aug19">August 19-21</label>
-                    <br/>
-                    <input type="radio" id="aug26" />
-                    <label for="aug26">August 26-28</label>
+                    <img src={calendar} alt="August calendar" />
+                    <div>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="aug19"
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            August 19-21
+                        </label>
+                        <br/>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="aug26" 
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            August 26-28
+                        </label>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img src={calendar} alt="September calendar" />
                 <div>
-                    <input type="radio" id="sept2" />
-                    <label for="sept2">September 2-4</label>
-                    <br/>
-                    <input type="radio" id="sept9" />
-                    <label for="sept9">September 9-11</label>
-                    <br/>
-                    <input type="radio" id="sept16" />
-                    <label for="sept16">September 16-18</label>
-                    <br/>
-                    <input type="radio" id="sept23" />
-                    <label for="sept23">September 23-25</label>
-                    <br/>
-                    <input type="radio" id="sept30" />
-                    <label for="sept30">Sept 30 - Oct 2</label>
+                    <img src={calendar} alt="September calendar" />
+                    <div>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="sept2"
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            September 2-4
+                        </label>
+                        <br/>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="sept9" 
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            September 9-11
+                        </label>
+                        <br/>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="sept16"
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            September 16-18
+                        </label>
+                        <br/>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="sept23" 
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            September 23-25
+                        </label>
+                        <br/>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="sept30" 
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            Sept 30 - Oct 2
+                        </label>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img src={calendar} alt="October calendar" />
                 <div>
-                    <input type="radio" id="oct7" />
-                    <label for="oct7">October 7-9</label>
-                    <br/>
-                    <input type="radio" id="oct14" />
-                    <label for="oct14">October 14-16</label>
-                    <br/>
-                    <input type="radio" id="oct21" />
-                    <label for="oct21">October 21-23</label>
-                    <br/>
-                    <input type="radio" id="oct28" />
-                    <label for="oct28">October 28-30</label>
-                </div>
-            </div>
-     
+                    <img src={calendar} alt="October calendar" />
+                    <div>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="oct7"
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            October 7-9
+                        </label>
+                        <br/>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="oct14" 
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            October 14-16
+                        </label>
+                        <br/>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="oct21" 
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            October 21-23
+                        </label>
+                        <br/>
+                        <label>
+                            <input 
+                                type="radio" 
+                                name="date-selection"
+                                value="oct28" 
+                                checked={weekend}
+                                onChange={handleWeekendChange}
+                            />
+                            October 28-30
+                        </label>
+                    </div>
+                </div>       
+            </form>
         </div>
     )
 }
