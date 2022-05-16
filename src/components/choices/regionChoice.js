@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import cabinsIcon from '../../resources/cabinsIcon.jpg';
 import washingtonMap from '../../resources/washingtonMap.png';
 
-export default function RegionChoice() {
-    const [region, setRegion] = useState('coast');
-    const handleRegionChange = (event) => {
-        setRegion(event.target.value);
-    }
+export default function RegionChoice({ region, handleRegionChange }) {
     return (
         <div>
             <p>Region choice page</p>

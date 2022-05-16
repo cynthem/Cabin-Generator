@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import cabinsIcon from '../../resources/cabinsIcon.jpg';
 import calendar from '../../resources/calendar.png';
 
-export default function WeekendChoice() {
-    const [weekend, setWeekend] = useState('june17');
-    const handleWeekendChange = (event) => {
-        setWeekend(event.target.value);
-    }
+export default function WeekendChoice({ weekend, handleWeekendChange }) {    
     return (
         <div>
             <p>Homepage Months</p>
