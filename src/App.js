@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<><WeekendChoice weekend={weekend} handleWeekendChange={handleWeekendChange} /><Link to="/regions">Click to continue</Link></>} />
+          <Route exact path="/" element={<WeekendChoice weekend={weekend} handleWeekendChange={handleWeekendChange} />} />
           <Route exact path="/regions" element={<><RegionChoice region={region} handleRegionChange={handleRegionChange} /><Link to="/results">View your results!</Link></>} />
           <Route path="/results" element={<><Results weekend={weekend} region={region} /><Link to="/">Click here to start over.</Link></>} />
         </Routes>

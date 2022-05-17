@@ -1,4 +1,5 @@
 import React from 'react';
+import RegionLink from '../routeLinks/regionLink';
 import cabinsIcon from '../../resources/cabinsIcon.jpg';
 import calendar from '../../resources/calendar.png';
 
@@ -141,7 +142,10 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     onChange={handleWeekendChange}
                 />
                 <label htmlFor="oct28">October 28-30</label>
-            </div>    
+            </div> 
+            <div>
+                <RegionLink />
+            </div>   
         </div> 
     )
 }
