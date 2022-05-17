@@ -818,66 +818,250 @@ export default function Results({ weekend, region }) {
             if (weekend === "june17") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="54035420" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/54035420?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/54035420?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">HUGE modern house — hot tub, views, fully stocked</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "june24") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="608621771562879149" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/608621771562879149?check_in=2022-06-24&amp;amp;check_out=2022-06-26&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/608621771562879149?check_in=2022-06-24&amp;amp;check_out=2022-06-26&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Boho Charmer 0.3 miles from WWU</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "aug19") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="45713390" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sodo Landing, Craftsman home, walk to downtown</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="38623848" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Spagnuolo...Light, bright, quiet and comfortable</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="16191122" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Schoolhouse</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "aug26") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="38623848" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Spagnuolo...Light, bright, quiet and comfortable</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="583414918878176090" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sip-N-Stay on Sturm-Enjoy the hot tub dog friendly</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="24082083" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/24082083?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/24082083?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Maple Place - Ideal Vacation Home</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept2") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="583414918878176090" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sip-N-Stay on Sturm-Enjoy the hot tub dog friendly</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="16191122" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Schoolhouse</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="38623848" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Spagnuolo...Light, bright, quiet and comfortable</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept9") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="12983536" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/12983536?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/12983536?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Bryant Barn</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="38623848" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Spagnuolo...Light, bright, quiet and comfortable</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="16191122" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Schoolhouse</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="583414918878176090" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sip-N-Stay on Sturm-Enjoy the hot tub dog friendly</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept16") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="12983536" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/12983536?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/12983536?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Bryant Barn</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="24082083" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/24082083?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/24082083?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Maple Place - Ideal Vacation Home</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="54035420" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/54035420?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/54035420?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">HUGE modern house — hot tub, views, fully stocked</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept23") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="45713390" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sodo Landing, Craftsman home, walk to downtown</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="38623848" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Spagnuolo...Light, bright, quiet and comfortable</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="16191122" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Schoolhouse</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept30") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="12983536" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/12983536?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/12983536?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Bryant Barn</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="38623848" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Spagnuolo...Light, bright, quiet and comfortable</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="583414918878176090" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sip-N-Stay on Sturm-Enjoy the hot tub dog friendly</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "oct7") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="16191122" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Schoolhouse</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="583414918878176090" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/583414918878176090?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sip-N-Stay on Sturm-Enjoy the hot tub dog friendly</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="54035420" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/54035420?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/54035420?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">HUGE modern house — hot tub, views, fully stocked</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "oct14") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="38623848" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Spagnuolo...Light, bright, quiet and comfortable</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="45713390" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sodo Landing, Craftsman home, walk to downtown</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="16191122" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Schoolhouse</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "oct21") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="45713390" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sodo Landing, Craftsman home, walk to downtown</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="38623848" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Spagnuolo...Light, bright, quiet and comfortable</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="16191122" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Schoolhouse</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "oct28") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="16191122" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/16191122?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Schoolhouse</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="38623848" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38623848?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Spagnuolo...Light, bright, quiet and comfortable</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="45713390" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45713390?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sodo Landing, Craftsman home, walk to downtown</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="594192762336945681" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/594192762336945681?check_in=2022-08-05&amp;amp;check_out=2022-08-07&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Brand New Property! Fieldview, close to S Wineries</a>
+                        </div>
                     </div>
                 )
             } else {
