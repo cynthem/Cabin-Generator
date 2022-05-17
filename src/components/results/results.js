@@ -560,66 +560,250 @@ export default function Results({ weekend, region }) {
                             <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
                             <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog friendly cabin close to Leavenworth- sleeps 6</a>
                         </div>
+                        <div className="airbnb-embed-frame" data-id="38355905" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/38355905?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/38355905?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cozy Woodland Cottage w/ Two Decks and Private Hot Tub - Dogs OK!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="37327414" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/37327414?check_in=2022-06-24&amp;amp;check_out=2022-06-26&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/37327414?check_in=2022-06-24&amp;amp;check_out=2022-06-26&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Camas Creek Retreat</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "june24") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="37327414" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/37327414?check_in=2022-06-24&amp;amp;check_out=2022-06-26&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/37327414?check_in=2022-06-24&amp;amp;check_out=2022-06-26&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Camas Creek Retreat</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "aug19") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="34809127" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Woodland Chalet in a Wonderful Quiet Setting</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="39271589" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/39271589?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/39271589?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Quiet Orchard Home w/Private Hot Tub &amp;amp; Great Location near Wenatchee - Dogs OK!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="21343839" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/21343839?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/21343839?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cashmere Cabin Getaway</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "aug26") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="35340142" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/35340142?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/35340142?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Rose All Day and Wine Not at Lake Chelan Lookout Vacation Rentals</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="34809127" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Woodland Chalet in a Wonderful Quiet Setting</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="39271589" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/39271589?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/39271589?check_in=2022-08-19&amp;amp;check_out=2022-08-21&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Quiet Orchard Home w/Private Hot Tub &amp;amp; Great Location near Wenatchee - Dogs OK!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51867138" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51867138?check_in=2022-10-21&amp;amp;check_out=2022-10-23&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51867138?check_in=2022-10-21&amp;amp;check_out=2022-10-23&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Pour house at The Lookout at Lake Chelan</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept2") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="45369838" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog friendly cabin close to Leavenworth- sleeps 6</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="35340115" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/35340115?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/35340115?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lake Life at The Lookout at Lake Chelan</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="34809127" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Woodland Chalet in a Wonderful Quiet Setting</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="45161574" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45161574?check_in=2022-09-02&amp;amp;check_out=2022-09-04&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45161574?check_in=2022-09-02&amp;amp;check_out=2022-09-04&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Unobstructed View. Pets. Hot Tub. Town Close by.</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept9") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="45369838" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog friendly cabin close to Leavenworth- sleeps 6</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="52262414" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/52262414?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/52262414?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Red Door Retreat with Your Own Pool &amp;amp; Hot Tub</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="35340115" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/35340115?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/35340115?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lake Life at The Lookout at Lake Chelan</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="35340158" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/35340158?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/35340158?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Where the Wild Things Are at The Lookout at Lake Chelan</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept16") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="8608616" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lake Wenatchee cabin, close to Leavenworth</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="35340142" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/35340142?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/35340142?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Rose All Day and Wine Not at Lake Chelan Lookout Vacation Rentals</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="45369838" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog friendly cabin close to Leavenworth- sleeps 6</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51867138" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51867138?check_in=2022-10-21&amp;amp;check_out=2022-10-23&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51867138?check_in=2022-10-21&amp;amp;check_out=2022-10-23&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Pour house at The Lookout at Lake Chelan</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept23") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="45369838" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog friendly cabin close to Leavenworth- sleeps 6</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="35340158" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/35340158?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/35340158?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Where the Wild Things Are at The Lookout at Lake Chelan</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="1992294" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/1992294?check_in=2022-09-23&amp;amp;check_out=2022-09-25&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/1992294?check_in=2022-09-23&amp;amp;check_out=2022-09-25&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Log home, walk to town! - Sleeps 6 - Hot Tub</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="43791074" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43791074?check_in=2022-09-23&amp;amp;check_out=2022-09-25&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43791074?check_in=2022-09-23&amp;amp;check_out=2022-09-25&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Natural Log &amp;amp; Rock Lodge on the Chiwawa River</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "sept30") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="45369838" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog friendly cabin close to Leavenworth- sleeps 6</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="23021067" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/23021067?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/23021067?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Elk Ridge Chalet-Pet Friendly Chalet in Roslyn Ridge! Summer Pool | Fire Pit | WiFi</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="52262414" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/52262414?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/52262414?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">The Red Door Retreat with Your Own Pool &amp;amp; Hot Tub</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="34809127" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Woodland Chalet in a Wonderful Quiet Setting</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "oct7") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="18564285" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/18564285?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/18564285?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Riverfront Refuge | Private Leavenworth Log Cabin</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="8608616" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lake Wenatchee cabin, close to Leavenworth</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="45369838" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog friendly cabin close to Leavenworth- sleeps 6</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="34809127" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Woodland Chalet in a Wonderful Quiet Setting</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "oct14") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="45369838" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog friendly cabin close to Leavenworth- sleeps 6</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="18564285" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/18564285?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/18564285?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Riverfront Refuge | Private Leavenworth Log Cabin</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="8608616" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lake Wenatchee cabin, close to Leavenworth</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="43791074" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43791074?check_in=2022-09-23&amp;amp;check_out=2022-09-25&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43791074?check_in=2022-09-23&amp;amp;check_out=2022-09-25&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Natural Log &amp;amp; Rock Lodge on the Chiwawa River</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "oct21") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="8608616" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lake Wenatchee cabin, close to Leavenworth</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="45369838" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/45369838?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog friendly cabin close to Leavenworth- sleeps 6</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="18564285" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/18564285?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/18564285?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Riverfront Refuge | Private Leavenworth Log Cabin</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="43791074" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43791074?check_in=2022-09-23&amp;amp;check_out=2022-09-25&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43791074?check_in=2022-09-23&amp;amp;check_out=2022-09-25&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Natural Log &amp;amp; Rock Lodge on the Chiwawa River</a>
+                        </div>
                     </div>
                 )
             } else if (weekend === "oct28") {
                 return (
                     <div>
+                        <div className="airbnb-embed-frame" data-id="775408" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/775408?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/775408?check_in=2022-10-28&amp;amp;check_out=2022-10-30&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Downtown 3 Bedroom Townhouse w/ patio and hot tub</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="34809127" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/34809127?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Woodland Chalet in a Wonderful Quiet Setting</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="8608616" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/8608616?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lake Wenatchee cabin, close to Leavenworth</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="18564285" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/18564285?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/18564285?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Riverfront Refuge | Private Leavenworth Log Cabin</a>
+                        </div>
                     </div>
                 )
             } else {
