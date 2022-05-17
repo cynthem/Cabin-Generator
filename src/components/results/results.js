@@ -278,6 +278,435 @@ export default function Results({ weekend, region }) {
                     </div>
                 )
             }
+        } else if (region === "cascades") {
+            if (weekend === "june17") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="40270026" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/40270026?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/40270026?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Money Creek Chalet- stunning, bright &amp;amp; spacious w/ hot tub for 8 +pets</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="39864044" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cottage at Sundara West-Heated Pool open all year</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="17666254" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Seven Gables Cabin, Stevens Pass, Hiking,Pets,View</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="47237594" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/47237594?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/47237594?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Modern Luxury Mt. Baker Chalet With Hot Tub</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "june24") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="17666254" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Seven Gables Cabin, Stevens Pass, Hiking,Pets,View</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="47237594" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/47237594?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/47237594?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Modern Luxury Mt. Baker Chalet With Hot Tub</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "aug19") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="17666254" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Seven Gables Cabin, Stevens Pass, Hiking,Pets,View</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="42296292" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/42296292?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/42296292?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Mysty Mountain Cabin on River 15Mi to Stevens Pass</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="559470921413879130" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/559470921413879130?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/559470921413879130?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cozy A-Frame w/ Hot Tub, Fire Pit, &amp;amp; Fireplace!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51361556" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">NEW! Quaint Lake Cushman Cottage w/ Private Access</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "aug26") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="39864044" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cottage at Sundara West-Heated Pool open all year</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="42296292" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/42296292?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/42296292?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Mysty Mountain Cabin on River 15Mi to Stevens Pass</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51361556" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">NEW! Quaint Lake Cushman Cottage w/ Private Access</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="43476421" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43476421?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43476421?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Three Enchanting Riverfront Cabins: Hot Tub Access</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "sept2") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="588055523379552489" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/588055523379552489?check_in=2022-06-24&amp;amp;check_out=2022-06-26&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/588055523379552489?check_in=2022-06-24&amp;amp;check_out=2022-06-26&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Chester&amp;#x27;s Cabin - Cozy rustic cabin w/ year-round hot tub &amp;amp; A/C. Pet-Friendly!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="559470921413879130" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/559470921413879130?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/559470921413879130?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cozy A-Frame w/ Hot Tub, Fire Pit, &amp;amp; Fireplace!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51361556" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">NEW! Quaint Lake Cushman Cottage w/ Private Access</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="42296292" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/42296292?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/42296292?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Mysty Mountain Cabin on River 15Mi to Stevens Pass</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "sept9") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="28352702" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/28352702?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/28352702?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Roslyn Ridge Cabin get-a-way</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="12914170" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/12914170?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/12914170?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Elder Family Lodge | Hot tub, Wifi, BBQ, Firepit!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="43476421" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43476421?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43476421?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Three Enchanting Riverfront Cabins: Hot Tub Access</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="39864044" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cottage at Sundara West-Heated Pool open all year</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "sept16") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="43317616" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43317616?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43317616?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lakefront Cabin w/ Stunning Mountain Views &amp;amp; Dock!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="6716336" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/6716336?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/6716336?check_in=2022-09-16&amp;amp;check_out=2022-09-18&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Pine Lodge *12* 7+ addl $ Hot Tub WIFI AC EV chrg</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="39864044" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cottage at Sundara West-Heated Pool open all year</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="40270026" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/40270026?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/40270026?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Money Creek Chalet- stunning, bright &amp;amp; spacious w/ hot tub for 8 +pets</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "sept23") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="1920394" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/1920394?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/1920394?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog-Friendly Cabin with Hot Tub, Fireplace, &amp;amp; WiFi</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="28352702" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/28352702?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/28352702?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Roslyn Ridge Cabin get-a-way</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="17666254" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Seven Gables Cabin, Stevens Pass, Hiking,Pets,View</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51973954" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51973954?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51973954?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Autumn Acres on Coast where Adventure Awaits</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "sept30") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="47867466" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/47867466?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/47867466?check_in=2022-09-30&amp;amp;check_out=2022-10-02&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cozy Packwood Cabin w/ Private Lot &amp;amp; Swim Spa!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51973954" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51973954?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51973954?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Autumn Acres on Coast where Adventure Awaits</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="39864044" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cottage at Sundara West-Heated Pool open all year</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="559470921413879130" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/559470921413879130?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/559470921413879130?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cozy A-Frame w/ Hot Tub, Fire Pit, &amp;amp; Fireplace!</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "oct7") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="39864044" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/39864044?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cottage at Sundara West-Heated Pool open all year</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51361556" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">NEW! Quaint Lake Cushman Cottage w/ Private Access</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="1920394" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/1920394?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/1920394?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog-Friendly Cabin with Hot Tub, Fireplace, &amp;amp; WiFi</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51973954" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51973954?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51973954?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Autumn Acres on Coast where Adventure Awaits</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "oct14") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="6073000" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/6073000?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/6073000?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cozy Forest House, Hot Tub/Sauna, AC, near Creek.</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="43317616" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43317616?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43317616?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lakefront Cabin w/ Stunning Mountain Views &amp;amp; Dock!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="1920394" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/1920394?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/1920394?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog-Friendly Cabin with Hot Tub, Fireplace, &amp;amp; WiFi</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="17666254" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/17666254?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Seven Gables Cabin, Stevens Pass, Hiking,Pets,View</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "oct21") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="31440656" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/31440656?check_in=2022-10-21&amp;amp;check_out=2022-10-23&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/31440656?check_in=2022-10-21&amp;amp;check_out=2022-10-23&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Beachfront Cabin - 2BR w/ Loft (stunning sunsets!)</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="6073000" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/6073000?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/6073000?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Cozy Forest House, Hot Tub/Sauna, AC, near Creek.</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="1920394" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/1920394?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/1920394?check_in=2022-10-07&amp;amp;check_out=2022-10-09&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Dog-Friendly Cabin with Hot Tub, Fireplace, &amp;amp; WiFi</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="43317616" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43317616?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43317616?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lakefront Cabin w/ Stunning Mountain Views &amp;amp; Dock!</a>
+                        </div>
+                    </div>
+                )
+            } else if (weekend === "oct28") {
+                return (
+                    <div>
+                        <div className="airbnb-embed-frame" data-id="28352702" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/28352702?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/28352702?check_in=2022-09-09&amp;amp;check_out=2022-09-11&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Roslyn Ridge Cabin get-a-way</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="51361556" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/51361556?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">NEW! Quaint Lake Cushman Cottage w/ Private Access</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="43317616" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43317616?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43317616?check_in=2022-10-14&amp;amp;check_out=2022-10-16&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Lakefront Cabin w/ Stunning Mountain Views &amp;amp; Dock!</a>
+                        </div>
+                        <div className="airbnb-embed-frame" data-id="43476421" data-view="home" style={styling}>
+                            <a href="https://www.airbnb.com/rooms/43476421?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                            <a href="https://www.airbnb.com/rooms/43476421?guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Three Enchanting Riverfront Cabins: Hot Tub Access</a>
+                        </div>
+                    </div>
+                )
+            } else {
+                return (
+                    <div>
+                        <h1>Oops, something went wrong...</h1>
+                        <p>Date and region selection required. Click below to start over.</p>
+                    </div>
+                )
+            }
+        } else if (region === "central") {
+            if (weekend === "june17") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "june24") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "aug19") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "aug26") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept2") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept9") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept16") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept23") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept30") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "oct7") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "oct14") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "oct21") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "oct28") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else {
+                return (
+                    <div>
+                        <h1>Oops, something went wrong...</h1>
+                        <p>Date and region selection required. Click below to start over.</p>
+                    </div>
+                )
+            }
+        } else if (region === "east") {
+            if (weekend === "june17") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "june24") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "aug19") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "aug26") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept2") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept9") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept16") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept23") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "sept30") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "oct7") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "oct14") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "oct21") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else if (weekend === "oct28") {
+                return (
+                    <div>
+                    </div>
+                )
+            } else {
+                return (
+                    <div>
+                        <h1>Oops, something went wrong...</h1>
+                        <p>Date and region selection required. Click below to start over.</p>
+                    </div>
+                )
+            }
+        } else {
+            return (
+                <div>
+                    <h1>Oops, something went wrong...</h1>
+                    <p>Date and region selection required. Click below to start over.</p>
+                </div>
+            )
         }
     }
     return (
