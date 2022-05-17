@@ -51,7 +51,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                 <label htmlFor="east">Eastside</label>
             </div>
             <div>
-                <ResultsLink />
+                {region && <ResultsLink />}
             </div>
         </div>
     )

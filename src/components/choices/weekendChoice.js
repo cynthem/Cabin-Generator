@@ -3,7 +3,7 @@ import RegionLink from '../routeLinks/regionLink';
 import cabinsIcon from '../../resources/cabinsIcon.jpg';
 import calendar from '../../resources/calendar.png';
 
-export default function WeekendChoice({ weekend, handleWeekendChange }) {    
+export default function WeekendChoice({ weekend, handleWeekendChange }) {   
     return (
         <div>
             <p>Homepage Months</p>
@@ -144,7 +144,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                 <label htmlFor="oct28">October 28-30</label>
             </div> 
             <div>
-                <RegionLink />
+                {weekend && <RegionLink />}
             </div>   
         </div> 
     )

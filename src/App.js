@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import WeekendChoice from './components/choices/weekendChoice';
 import RegionChoice from './components/choices/regionChoice';
 import Results from './components/results/results';
