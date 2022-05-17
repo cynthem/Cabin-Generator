@@ -1,4 +1,5 @@
 import React from 'react';
+import WeekendLink from '../routeLinks/weekendLink';
 import cabinsIcon from '../../resources/cabinsIcon.jpg';
 import useScript from '../../hooks/useScript';
 
@@ -1155,6 +1156,9 @@ export default function Results({ weekend, region }) {
             <img src={cabinsIcon} alt="Row of various cabin styles"/>
             <div>
                 {imagesSelector(weekend, region)}
+            </div>
+            <div>
+                <WeekendLink />
             </div>
         </div>
     )

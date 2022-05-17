@@ -1,4 +1,5 @@
 import React from 'react';
+import ResultsLink from '../routeLinks/resultsLink';
 import cabinsIcon from '../../resources/cabinsIcon.jpg';
 import washingtonMap from '../../resources/washingtonMap.png';
 
@@ -48,6 +49,9 @@ export default function RegionChoice({ region, handleRegionChange }) {
                     onChange={handleRegionChange}
                 />
                 <label htmlFor="east">Eastside</label>
+            </div>
+            <div>
+                <ResultsLink />
             </div>
         </div>
     )
