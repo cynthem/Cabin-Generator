@@ -17,7 +17,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                 </div>
             </div>
             <div className="row justify-content-center align-items-center my-5">
-                <div className="col">
+                <div className="col offset-2">
                     <img src={washingtonMap} alt="Map of Washington State" />
                 </div>
                 <div className="col">
