@@ -19,7 +19,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     <img src={cabinsIcon} alt="Row of cabins in various styles" className="mb-5 mx-auto d-block" />
                 </div>
             </div>
-            <div className="row align-items-center justify-content-center mb-3">
+            <div className="row align-items-center justify-content-center my-3">
                 <div className="col">
                     <img src={juneCalendar} alt="June calendar" />
                 </div>
@@ -69,7 +69,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     <label htmlFor="aug26" className="text-light">August 26-28</label>
                 </div>
             </div>    
-            <div className="row align-items-center justify-content-center mb-5">    
+            <div className="row align-items-center justify-content-center my-5">    
                 <div className="col">
                     <img src={septemberCalendar} alt="September calendar" />
                 </div>
