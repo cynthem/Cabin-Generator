@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function ResultsLink() {
     return (
-        <div>
-            <Link to="/results">View your results!</Link>
-        </div>
+        <Link to="/results">
+            <button type="button" className="btn btn-light btn-block active" aria-pressed="true">
+                View your results!
+            </button>
+        </Link>
     )
 }

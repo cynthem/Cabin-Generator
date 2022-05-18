@@ -5,53 +5,67 @@ import washingtonMap from '../../resources/washingtonMap.png';
 
 export default function RegionChoice({ region, handleRegionChange }) {
     return (
-        <div>
-            <p>Region choice page</p>
-            <img src={cabinsIcon} alt="Row of various cabin styles" />
-            <div>
-                <img src={washingtonMap} alt="Map of Washington State" />
-                <input 
-                    type="radio" 
-                    name="region-selection"
-                    value="coast"
-                    id="coast"
-                    checked={region === "coast"}
-                    onChange={handleRegionChange}
-                />
-                <label htmlFor="coast">Coast/Olympics</label>
-                <br/>
-                <input 
-                    type="radio" 
-                    name="region-selection"
-                    value="cascades"
-                    id="cascades"
-                    checked={region === "cascades"}
-                    onChange={handleRegionChange}
-                />
-                <label htmlFor="cascades">Cascades</label>
-                <br/>
-                <input 
-                    type="radio" 
-                    name="region-selection"
-                    value="central"
-                    id="central"
-                    checked={region === "central"}
-                    onChange={handleRegionChange}
-                />
-                <label htmlFor="central">Central Washington</label>
-                <br/>
-                <input 
-                    type="radio" 
-                    name="region-selection"
-                    value="east"
-                    id="east"
-                    checked={region === "east"}
-                    onChange={handleRegionChange}
-                />
-                <label htmlFor="east">Eastside</label>
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="col">
+                    <h1 className="text-light text-center my-4 display-1">CABIN GENERATOR</h1>
+                </div>
             </div>
-            <div>
-                {region && <ResultsLink />}
+            <div className="row justify-content-center">
+                <div className="col">
+                    <img src={cabinsIcon} alt="Row of cabins in various styles" className="mb-5 mx-auto d-block" />
+                </div>
+            </div>
+            <div className="row justify-content-center align-items-center my-5">
+                <div className="col">
+                    <img src={washingtonMap} alt="Map of Washington State" />
+                </div>
+                <div className="col">
+                    <input 
+                        type="radio" 
+                        name="region-selection"
+                        value="coast"
+                        id="coast"
+                        checked={region === "coast"}
+                        onChange={handleRegionChange}
+                    />
+                    <label htmlFor="coast">Coast/Olympics</label>
+                    <br/>
+                    <input 
+                        type="radio" 
+                        name="region-selection"
+                        value="cascades"
+                        id="cascades"
+                        checked={region === "cascades"}
+                        onChange={handleRegionChange}
+                    />
+                    <label htmlFor="cascades">Cascades</label>
+                    <br/>
+                    <input 
+                        type="radio" 
+                        name="region-selection"
+                        value="central"
+                        id="central"
+                        checked={region === "central"}
+                        onChange={handleRegionChange}
+                    />
+                    <label htmlFor="central">Central Washington</label>
+                    <br/>
+                    <input 
+                        type="radio" 
+                        name="region-selection"
+                        value="east"
+                        id="east"
+                        checked={region === "east"}
+                        onChange={handleRegionChange}
+                    />
+                    <label htmlFor="east">Eastside</label>
+                    </div>
+                </div>
+            <div className="row mb-5">
+                <div className="col">
+                    {region && <ResultsLink />}
+                </div>
             </div>
         </div>
     )

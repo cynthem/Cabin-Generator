@@ -170,7 +170,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                 </div>
             </div>    
             <div className="row mb-5">
-                <div className="col-12">
+                <div className="col">
                     {weekend && <RegionLink />}
                 </div>
             </div>   
