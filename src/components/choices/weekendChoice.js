@@ -22,18 +22,6 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                 </div>
             </div>
             <div className="container">
-                <div className="row">
-                    <div className="col">
-                        <h2>A search for cabins on airbnb made simple!</h2>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <p>Select a date, then a region, and generate the 4 best cabin results based on the following filters:</p>
-                    </div>
-                </div>
-            </div>
-            <div className="container">
                 <div className="row align-items-center">
                     <div className="col offset-1">
                         <img src={juneCalendar} alt="June calendar" />
