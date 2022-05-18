@@ -1843,25 +1843,41 @@ export default function Results({ weekend, region }) {
         }
     }
     return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col">
-                    <h1 className="text-light text-center my-4 display-1 font-monospace">CABIN GENERATOR</h1>
+        <>
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col">
+                        <h1 className="text-light text-center my-4 display-1 font-monospace">CABIN GENERATOR</h1>
+                    </div>
+                </div>
+                <div className="row justify-content-center">
+                    <div className="col">
+                        <img src={cabinsIcon} alt="Row of cabins in various styles" className="mb-5 mx-auto d-block" />
+                    </div>
                 </div>
             </div>
-            <div className="row justify-content-center">
-                <div className="col">
-                    <img src={cabinsIcon} alt="Row of cabins in various styles" className="mb-5 mx-auto d-block" />
+            <div className="container">
+                <div className="row">
+                    <div className="col offset-1">
+                        <h3 className="text-light">Your results:</h3>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col offset-1">
+                        <p className="text-light mb-5">(Click on an image to view on airbnb)</p>
+                    </div>
                 </div>
             </div>
             <div>
                 {imagesSelector(weekend, region)}
             </div>
-            <div className="row mb-5">
-                <div className="col">
-                    <WeekendLink />
+            <div className="container">
+                <div className="row mb-5">
+                    <div className="col">
+                        <WeekendLink />
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
