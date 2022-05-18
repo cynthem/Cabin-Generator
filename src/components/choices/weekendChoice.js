@@ -22,6 +22,11 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                 </div>
             </div>
             <div className="container">
+                <div className="row">
+                    <div className="col offset-1">
+                        <h3 className="text-light mb-5">Select a weekend:</h3>
+                    </div>
+                </div>
                 <div className="row align-items-center">
                     <div className="col offset-1">
                         <img src={juneCalendar} alt="June calendar" />

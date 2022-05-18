@@ -34,7 +34,7 @@ export default function Home() {
                     </div>
                 </div>
                 <ul className="list-group mb-5">
-                    <li className="list-group-item col-3 offset-1">Up to 6 people</li>
+                    <li className="list-group-item col-3 offset-1">Room for 6 people</li>
                     <li className="list-group-item col-3 offset-1">Pet friendly</li>
                     <li className="list-group-item col-3 offset-1">3+ bedrooms</li>
                     <li className="list-group-item col-3 offset-1">Private hot tub</li>
