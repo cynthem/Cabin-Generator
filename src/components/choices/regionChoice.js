@@ -29,7 +29,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                         checked={region === "coast"}
                         onChange={handleRegionChange}
                     />
-                    <label htmlFor="coast">Coast/Olympics</label>
+                    <label htmlFor="coast" className="text-light">Coast/Olympics</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -39,7 +39,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                         checked={region === "cascades"}
                         onChange={handleRegionChange}
                     />
-                    <label htmlFor="cascades">Cascades</label>
+                    <label htmlFor="cascades" className="text-light">Cascades</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -49,7 +49,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                         checked={region === "central"}
                         onChange={handleRegionChange}
                     />
-                    <label htmlFor="central">Central Washington</label>
+                    <label htmlFor="central" className="text-light">Central Washington</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -59,7 +59,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                         checked={region === "east"}
                         onChange={handleRegionChange}
                     />
-                    <label htmlFor="east">Eastside</label>
+                    <label htmlFor="east" className="text-light">Eastside</label>
                     </div>
                 </div>
             <div className="row mb-5">

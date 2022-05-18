@@ -16,22 +16,34 @@ export default function Results({ weekend, region }) {
         if (region === "coast") {
             if (weekend === "june17") {
                 return (
-                    <div>
-                        <div className="airbnb-embed-frame" data-id="506667266175518134" data-view="home" style={styling}>
-                            <a href="https://www.airbnb.com/rooms/506667266175518134?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
-                            <a href="https://www.airbnb.com/rooms/506667266175518134?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Happy Heron&amp;#x27;s Hideaway- dog friendly</a>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <div className="airbnb-embed-frame" data-id="506667266175518134" data-view="home" style={styling}>
+                                    <a href="https://www.airbnb.com/rooms/506667266175518134?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                                    <a href="https://www.airbnb.com/rooms/506667266175518134?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Happy Heron&amp;#x27;s Hideaway- dog friendly</a>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div className="airbnb-embed-frame" data-id="34177751" data-view="home" style={styling}>
+                                    <a href="https://www.airbnb.com/rooms/34177751?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                                    <a href="https://www.airbnb.com/rooms/34177751?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Kid/dog friendly,hot tub,main floor master</a>
+                                </div>
+                            </div> 
                         </div>
-                        <div className="airbnb-embed-frame" data-id="34177751" data-view="home" style={styling}>
-                            <a href="https://www.airbnb.com/rooms/34177751?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
-                            <a href="https://www.airbnb.com/rooms/34177751?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Kid/dog friendly,hot tub,main floor master</a>
-                        </div>
-                        <div className="airbnb-embed-frame" data-id="46529006" data-view="home" style={styling}>
-                            <a href="https://www.airbnb.com/rooms/46529006?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
-                            <a href="https://www.airbnb.com/rooms/46529006?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sasquatch Shore House - Oyhut Bay Seaside Village</a>
-                        </div>
-                        <div className="airbnb-embed-frame" data-id="53658964" data-view="home" style={styling}>
-                            <a href="https://www.airbnb.com/rooms/53658964?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
-                            <a href="https://www.airbnb.com/rooms/53658964?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Oceans3 Getaway - Entire Residential Home with Newly-Installed Hot Tub</a>
+                        <div className="row mb-5">
+                            <div className="col">
+                                <div className="airbnb-embed-frame" data-id="46529006" data-view="home" style={styling}>
+                                    <a href="https://www.airbnb.com/rooms/46529006?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                                    <a href="https://www.airbnb.com/rooms/46529006?check_in=2022-06-17&amp;amp;check_out=2022-06-19&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Sasquatch Shore House - Oyhut Bay Seaside Village</a>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div className="airbnb-embed-frame" data-id="53658964" data-view="home" style={styling}>
+                                    <a href="https://www.airbnb.com/rooms/53658964?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget">View On Airbnb</a>
+                                    <a href="https://www.airbnb.com/rooms/53658964?check_in=2022-06-10&amp;amp;check_out=2022-06-12&amp;amp;guests=1&amp;amp;adults=6&amp;amp;pets=1&amp;amp;s=66&amp;amp;source=embed_widget" rel="nofollow">Oceans3 Getaway - Entire Residential Home with Newly-Installed Hot Tub</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 )
@@ -1165,8 +1177,10 @@ export default function Results({ weekend, region }) {
             <div>
                 {imagesSelector(weekend, region)}
             </div>
-            <div>
-                <WeekendLink />
+            <div className="row mb-5">
+                <div className="col">
+                    <WeekendLink />
+                </div>
             </div>
         </div>
     )

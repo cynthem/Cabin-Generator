@@ -5,7 +5,7 @@ export default function WeekendLink() {
     return (
         <Link to="/">
             <button type="button" className="btn btn-light btn-block active" aria-pressed="true">
-                Click here to start over.
+                Start a new search
             </button>
         </Link>
     )
