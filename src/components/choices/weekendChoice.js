@@ -8,15 +8,15 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col">
-                    <h1 className="text-light text-center my-3">CABIN GENERATOR</h1>
+                    <h1 className="text-light text-center my-4 display-1">CABIN GENERATOR</h1>
                 </div>
             </div>
             <div className="row justify-content-center">
                 <div className="col">
-                    <img src={cabinsIcon} alt="Row of cabins in various styles" className="mt-3 mb-5 mx-auto d-block" />
+                    <img src={cabinsIcon} alt="Row of cabins in various styles" className="mb-5 mx-auto d-block" />
                 </div>
             </div>
-            <div className="row align-items-center justify-content-center">
+            <div className="row align-items-center justify-content-center mb-3">
                 <div className="col">
                     <img src={calendar} alt="June calendar" />
                 </div>
@@ -66,7 +66,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     <label htmlFor="aug26" className="text-light">August 26-28</label>
                 </div>
             </div>    
-            <div className="row align-items-center justify-content-center">    
+            <div className="row align-items-center justify-content-center mb-5">    
                 <div className="col">
                     <img src={calendar} alt="September calendar" />
                 </div>
@@ -166,8 +166,8 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     <label htmlFor="oct28" className="text-light">October 28-30</label>
                 </div>
             </div>    
-            <div className="row">
-                <div className="col">
+            <div className="row mb-5 mx-auto">
+                <div className="col-12">
                     {weekend && <RegionLink />}
                 </div>
             </div>   
