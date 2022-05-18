@@ -166,10 +166,8 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     <label htmlFor="oct28" className="text-light">October 28-30</label>
                 </div>
             </div>    
-            <div className="row">
-                <div className="col">
+            <div>
                     {weekend && <RegionLink />}
-                </div>
             </div>   
         </div> 
     )
