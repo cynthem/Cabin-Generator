@@ -8,7 +8,11 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col">
-                    <h1>CABIN GENERATOR</h1>
+                    <h1 className="text-light">CABIN GENERATOR</h1>
+                </div>
+            </div>
+            <div className="row justify-content-center">
+                <div className="col">
                     <img src={cabinsIcon} alt="Row of cabins in various styles"/>
                 </div>
             </div>
@@ -25,7 +29,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "june17"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="june17">June 17-19</label>
+                    <label htmlFor="june17" className="text-light">June 17-19</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -35,7 +39,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "june24"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="june24">June 24-26</label>
+                    <label htmlFor="june24" className="text-light">June 24-26</label>
                 </div>
                 <div className="col">
                     <img src={calendar} alt="August calendar" />
@@ -49,7 +53,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "aug19"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="aug19">August 19-21</label>
+                    <label htmlFor="aug19" className="text-light">August 19-21</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -59,8 +63,9 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "aug26"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="aug26">August 26-28</label>
+                    <label htmlFor="aug26" className="text-light">August 26-28</label>
                 </div>
+            </div>    
             <div className="row align-items-center justify-content-center">    
                 <div className="col">
                     <img src={calendar} alt="September calendar" />
@@ -74,7 +79,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "sept2"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="sept2">September 2-4</label>
+                    <label htmlFor="sept2" className="text-light">September 2-4</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -84,7 +89,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "sept9"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="sept9">September 9-11</label>
+                    <label htmlFor="sept9" className="text-light">September 9-11</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -94,7 +99,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "sept16"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="sept16">September 16-18</label>
+                    <label htmlFor="sept16" className="text-light">September 16-18</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -104,7 +109,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "sept23"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="sept23">September 23-25</label>
+                    <label htmlFor="sept23" className="text-light">September 23-25</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -114,7 +119,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "sept30"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="sept30">Sept 30 - Oct 2</label>
+                    <label htmlFor="sept30" className="text-light">Sept 30 - Oct 2</label>
                 </div>
                 <div className="col">
                     <img src={calendar} alt="October calendar" />
@@ -128,7 +133,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "oct7"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="oct7">October 7-9</label>
+                    <label htmlFor="oct7" className="text-light">October 7-9</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -138,7 +143,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "oct14"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="oct14">October 14-16</label>
+                    <label htmlFor="oct14" className="text-light">October 14-16</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -148,7 +153,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "oct21"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="oct21">October 21-23</label>
+                    <label htmlFor="oct21" className="text-light">October 21-23</label>
                     <br/>
                     <input 
                         type="radio" 
@@ -158,10 +163,9 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                         checked={weekend === "oct28"}
                         onChange={handleWeekendChange}
                     />
-                    <label htmlFor="oct28">October 28-30</label>
+                    <label htmlFor="oct28" className="text-light">October 28-30</label>
                 </div>
             </div>    
-            </div> 
             <div className="row">
                 <div className="col">
                     {weekend && <RegionLink />}
