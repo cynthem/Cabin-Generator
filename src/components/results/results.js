@@ -1,7 +1,9 @@
 import React from 'react';
 import WeekendLink from '../routeLinks/weekendLink';
 import cabinsIcon from '../../resources/cabinsIcon.jpg';
+import errorChippy from '../../resources/errorChippy.png';
 import useScript from '../../hooks/useScript';
+
 
 const styling = {
     width: '450px', 
@@ -446,9 +448,22 @@ export default function Results({ weekend, region }) {
                 )
             } else {
                 return (
-                    <div>
-                        <h1>Oops, something went wrong...</h1>
-                        <p>Date and region selection required. Click below to start over.</p>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <h2 className="text-light text-center mb-5">Oops, something went wrong...</h2>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <img src={errorChippy} className="mb-5 mx-auto d-block" alt="Chip the cat sticks his tongue out at errors" />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <p className="text-light text-center mb-5">Date and region selection required. Click below to start over.</p>
+                            </div>
+                        </div>
                     </div>
                 )
             }
@@ -884,9 +899,22 @@ export default function Results({ weekend, region }) {
                 )
             } else {
                 return (
-                    <div>
-                        <h1>Oops, something went wrong...</h1>
-                        <p>Date and region selection required. Click below to start over.</p>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <h2 className="text-light text-center mb-5">Oops, something went wrong...</h2>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <img src={errorChippy} className="mb-5 mx-auto d-block" alt="Chip the cat sticks his tongue out at errors" />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <p className="text-light text-center mb-5">Date and region selection required. Click below to start over.</p>
+                            </div>
+                        </div>
                     </div>
                 )
             }
@@ -1322,9 +1350,22 @@ export default function Results({ weekend, region }) {
                 )
             } else {
                 return (
-                    <div>
-                        <h1>Oops, something went wrong...</h1>
-                        <p>Date and region selection required. Click below to start over.</p>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <h2 className="text-light text-center mb-5">Oops, something went wrong...</h2>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <img src={errorChippy} className="mb-5 mx-auto d-block" alt="Chip the cat sticks his tongue out at errors" />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <p className="text-light text-center mb-5">Date and region selection required. Click below to start over.</p>
+                            </div>
+                        </div>
                     </div>
                 )
             }
@@ -1760,17 +1801,43 @@ export default function Results({ weekend, region }) {
                 )
             } else {
                 return (
-                    <div>
-                        <h1>Oops, something went wrong...</h1>
-                        <p>Date and region selection required. Click below to start over.</p>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <h2 className="text-light text-center mb-5">Oops, something went wrong...</h2>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <img src={errorChippy} className="mb-5 mx-auto d-block" alt="Chip the cat sticks his tongue out at errors" />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <p className="text-light text-center mb-5">Date and region selection required. Click below to start over.</p>
+                            </div>
+                        </div>
                     </div>
                 )
             }
         } else {
             return (
-                <div>
-                    <h1>Oops, something went wrong...</h1>
-                    <p>Date and region selection required. Click below to start over.</p>
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                            <h2 className="text-light text-center mb-5">Oops, something went wrong...</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <img src={errorChippy} className="mb-5 mx-auto d-block" alt="Chip the cat sticks his tongue out at errors" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <p className="text-light text-center mb-5">Date and region selection required. Click below to start over.</p>
+                        </div>
+                    </div>
                 </div>
             )
         }
