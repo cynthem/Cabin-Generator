@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/home';
 import WeekendChoice from './components/choices/weekendChoice';
 import RegionChoice from './components/choices/regionChoice';
 import Results from './components/results/results';
@@ -17,7 +18,8 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<WeekendChoice weekend={weekend} handleWeekendChange={handleWeekendChange} />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/weekends" element={<WeekendChoice weekend={weekend} handleWeekendChange={handleWeekendChange} />} />
           <Route exact path="/regions" element={<RegionChoice region={region} handleRegionChange={handleRegionChange} />} />
           <Route path="/results" element={<Results weekend={weekend} region={region} />} />
         </Routes>
