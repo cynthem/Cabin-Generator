@@ -1151,9 +1151,17 @@ export default function Results({ weekend, region }) {
         }
     }
     return (
-        <div>
-            <p>Results Page</p>
-            <img src={cabinsIcon} alt="Row of various cabin styles"/>
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="col">
+                    <h1 className="text-light text-center my-4 display-1">CABIN GENERATOR</h1>
+                </div>
+            </div>
+            <div className="row justify-content-center">
+                <div className="col">
+                    <img src={cabinsIcon} alt="Row of cabins in various styles" className="mb-5 mx-auto d-block" />
+                </div>
+            </div>
             <div>
                 {imagesSelector(weekend, region)}
             </div>
