@@ -8,12 +8,12 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col">
-                    <h1 className="text-light">CABIN GENERATOR</h1>
+                    <h1 className="text-light text-center my-3">CABIN GENERATOR</h1>
                 </div>
             </div>
             <div className="row justify-content-center">
                 <div className="col">
-                    <img src={cabinsIcon} alt="Row of cabins in various styles"/>
+                    <img src={cabinsIcon} alt="Row of cabins in various styles" className="mt-3 mb-5 mx-auto d-block" />
                 </div>
             </div>
             <div className="row align-items-center justify-content-center">
@@ -166,8 +166,10 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     <label htmlFor="oct28" className="text-light">October 28-30</label>
                 </div>
             </div>    
-            <div>
+            <div className="row">
+                <div className="col">
                     {weekend && <RegionLink />}
+                </div>
             </div>   
         </div> 
     )
