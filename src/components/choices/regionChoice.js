@@ -8,7 +8,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col">
-                    <h1 className="text-light text-center my-4 display-1">CABIN GENERATOR</h1>
+                    <h1 className="text-light text-center my-4 display-1 font-monospace">CABIN GENERATOR</h1>
                 </div>
             </div>
             <div className="row justify-content-center">
