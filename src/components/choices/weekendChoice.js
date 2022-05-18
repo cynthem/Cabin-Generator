@@ -1,7 +1,10 @@
 import React from 'react';
 import RegionLink from '../routeLinks/regionLink';
 import cabinsIcon from '../../resources/cabinsIcon.jpg';
-import calendar from '../../resources/calendar.png';
+import juneCalendar from '../../resources/juneCalendar.jpg';
+import augustCalendar from '../../resources/augustCalendar.jpg';
+import septemberCalendar from '../../resources/septemberCalendar.jpg';
+import octoberCalendar from '../../resources/octoberCalendar.jpg';
 
 export default function WeekendChoice({ weekend, handleWeekendChange }) {   
     return (
@@ -18,7 +21,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
             </div>
             <div className="row align-items-center justify-content-center mb-3">
                 <div className="col">
-                    <img src={calendar} alt="June calendar" />
+                    <img src={juneCalendar} alt="June calendar" />
                 </div>
                 <div className="col">
                     <input 
@@ -42,7 +45,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     <label htmlFor="june24" className="text-light">June 24-26</label>
                 </div>
                 <div className="col">
-                    <img src={calendar} alt="August calendar" />
+                    <img src={augustCalendar} alt="August calendar" />
                 </div>
                 <div className="col">
                     <input 
@@ -68,7 +71,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
             </div>    
             <div className="row align-items-center justify-content-center mb-5">    
                 <div className="col">
-                    <img src={calendar} alt="September calendar" />
+                    <img src={septemberCalendar} alt="September calendar" />
                 </div>
                 <div className="col">
                     <input 
@@ -122,7 +125,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     <label htmlFor="sept30" className="text-light">Sept 30 - Oct 2</label>
                 </div>
                 <div className="col">
-                    <img src={calendar} alt="October calendar" />
+                    <img src={octoberCalendar} alt="October calendar" />
                 </div>
                 <div className="col">
                     <input 
@@ -166,7 +169,7 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                     <label htmlFor="oct28" className="text-light">October 28-30</label>
                 </div>
             </div>    
-            <div className="row mb-5 mx-auto">
+            <div className="row mb-5">
                 <div className="col-12">
                     {weekend && <RegionLink />}
                 </div>
