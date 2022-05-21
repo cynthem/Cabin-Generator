@@ -37,7 +37,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                             checked={region === "coast"}
                             onChange={handleRegionChange}
                         />
-                        <label htmlFor="coast" className="text-light ms-2">Coast/Olympics</label>
+                        <label htmlFor="coast" className="text-light ms-2"><span className="text-primary">**</span>Coast/Olympics<span className="text-primary">**</span></label>
                         <br/>
                         <input 
                             type="radio" 
@@ -47,7 +47,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                             checked={region === "cascades"}
                             onChange={handleRegionChange}
                         />
-                        <label htmlFor="cascades" className="text-light ms-2">Cascades</label>
+                        <label htmlFor="cascades" className="text-light ms-2"><span className="text-success">**</span>Cascades<span className="text-success">**</span></label>
                         <br/>
                         <input 
                             type="radio" 
@@ -57,7 +57,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                             checked={region === "central"}
                             onChange={handleRegionChange}
                         />
-                        <label htmlFor="central" className="text-light ms-2">Central Washington</label>
+                        <label htmlFor="central" className="text-light ms-2"><span className="text-warning">**</span>Central Washington<span className="text-warning">**</span></label>
                         <br/>
                         <input 
                             type="radio" 
@@ -67,7 +67,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                             checked={region === "east"}
                             onChange={handleRegionChange}
                         />
-                        <label htmlFor="east" className="text-light ms-2">Eastside</label>
+                        <label htmlFor="east" className="text-light ms-2"><span className="text-danger">**</span>Eastside<span className="text-danger">**</span></label>
                     </div>
                 </div>
                 <div className="row mb-5">
