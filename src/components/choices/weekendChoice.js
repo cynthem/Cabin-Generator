@@ -179,8 +179,8 @@ export default function WeekendChoice({ weekend, handleWeekendChange }) {
                 </div>    
             </div>
             <div className="container">
-                <div className="row mb-5 justify-content-end">
-                    <div className="col">
+                <div className="row mb-5">
+                    <div className="col offset-5">
                         {weekend && <RegionLink />}
                     </div>
                 </div> 

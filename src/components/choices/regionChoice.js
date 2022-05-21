@@ -71,7 +71,7 @@ export default function RegionChoice({ region, handleRegionChange }) {
                     </div>
                 </div>
                 <div className="row mb-5">
-                    <div className="col">
+                    <div className="col offset-5">
                         {region && <ResultsLink />}
                     </div>
                 </div>

@@ -1873,7 +1873,7 @@ export default function Results({ weekend, region }) {
             </div>
             <div className="container">
                 <div className="row mb-5">
-                    <div className="col">
+                    <div className="col offset-5">
                         <WeekendLink />
                     </div>
                 </div>
